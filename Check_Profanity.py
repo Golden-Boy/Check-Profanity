@@ -1,7 +1,7 @@
 '''
 Checks a string of text for a curse word using the wdyl website.
 Add the ability to check against a dictionary for misspelled words
-
+Fix bugs
 '''
 import urllib
 import os
@@ -45,8 +45,8 @@ def check_profanity(text_to_check):
     except ValueError:
         print("Error checking document")
 
-def dictionary():
-    print("Dictionary")
+def dictionary(): # create dictionary function
+    pass
 
 
 begin()
